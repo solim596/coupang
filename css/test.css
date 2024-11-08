@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #111;
+  display: block;
+}
+.intro-s7 ul li {
+  display: flex;
+  /* margin: 1rem; */
+}
+.intro-s7 .sub {
+  display: none;
+}
+.intro-s7 .sub li a {
+  padding-left: 1rem;
+  color: #333;
+}
+.intro-s7 .sub li:hover {
+  color: #50a3d9;
+}
