@@ -344,5 +344,11 @@ $(function () {
     $('html, body').animate({ scrollTop: 0 });
   });
 
-
+  //윈도우 크기 조절 시 swiper 업데이트
+  $(window).on("resize", function(){
+    mainSlider.update();
+    tabSwiper1.update();
+    tabSwiper2.update();
+    tabSwiper3.update();
+  });
 });

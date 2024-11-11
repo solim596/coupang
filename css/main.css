@@ -712,6 +712,10 @@ section { overflow: hidden; }
     width: 20px; height: 20px;
     margin-left: 1rem;
 }
+.s6 .center-area .right-area button i svg {
+    fill: white;
+    width: 1rem;
+}
 .s6 .center-area .right-area button:hover {
     transform: scale(0.95);
     border-radius: 10px;
@@ -1194,9 +1198,10 @@ footer .top.active {
     }
     .s1 .mainSwiper {
         border-radius: 0 0 16px 16px;
+        /* height: 100%; */
     }
     .s1 .mainSwiper .swiper-slide {
-        height: 157px;
+        height: 128px;
     }
     .s1 .swiper-btns {
         background-color: transparent;
@@ -1268,15 +1273,18 @@ footer .top.active {
         border: 1px solid #eee;
     }
     .s2 .tab-title ul li a {
-        font-size: 0.9rem;
+        font-size: 0.599rem;
         
     }
     .s2 .center-area .tab-content {
         height: 300px;
         width: 100%;
     }
-    .s2 .center-area .tab-content .swiper .swiper-slide .hober .tab-img {
+    .s2 .center-area .tab-content .swiper .swiper-slide .hover .tab-img {
         height: 8rem;
+    }
+    .m-ver {
+        height: 10px;
     }
     .s3 {
         padding-bottom: 4rem;
@@ -1379,10 +1387,10 @@ footer .top.active {
         height: 30px;
         right: 0;
         top: 0.1rem;
-        margin: -5px 0 0 -20px;
+        margin: 9px 5px 0 -20px;
     }
     .s5 .center-area .search-btn button {
-        padding: 0.6rem 1.4rem;
+        padding: 0.6rem 0.93rem;
         margin-right: 0.5rem;
         font-size: 0.9rem;
     }
@@ -1415,15 +1423,15 @@ footer .top.active {
         display: none;
     }
     .s6 .center-area .m-left-area {
-        width: 9rem;
+        width: 6rem;
         margin-left: -10px;
         display: block;
         background-color: #fff;
-        border-radius: 30px;
+        border-radius: 15px;
         box-shadow: 1px 1px 5px 1px gray;
     }
     .s6 .center-area .right-area {
-        margin-left: -40px;
+        margin-left: -50px;
     }
     .s6 .center-area .right-area span {
         display: none;
@@ -1438,7 +1446,7 @@ footer .top.active {
         display: none;
     }
     .s6 .center-area .right-area button {
-        width: 14rem;
+        width: 10rem;
         font-size: 0.8rem;
         padding: 0.8rem;
         border-radius: 6px;
@@ -1471,14 +1479,21 @@ footer .top.active {
     .s7 .center-area .right-area .swiper .swiper-slide {
         height: 310px;
     }
+    .s7 .center-area .right-area .swiper .swiper-slide .content h3 {
+        font-size: 1rem;
+    }
+    .s7 .center-area .right-area .swiper .swiper-slide .content p {
+        font-size: 0.9rem;
+    }
     .s7 .center-area .right-area .swiper .slide2,
     .s7 .center-area .right-area .swiper .slide4,
     .s7 .center-area .right-area .swiper .slide6 {
         margin-top: 0;
     }
     .s7 .center-area .right-area  .swiper .swiper-slide .slide-img {
-        width: 240px;
-        height: 240px;
+        object-fit: contain;
+        width: 190px;
+        height: 200px;
         border-radius: 24px;
     }
     .s7 .center-area .right-area .swiper .swiper-button-next,

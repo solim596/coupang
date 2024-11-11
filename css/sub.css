@@ -562,7 +562,7 @@ p {
 /* 모바일 버전 */
 @media screen and (max-width: 480px) {
     .bottom-header {
-        width: 460px;
+        width: 383px;
         height: 35px;
         margin: 0 auto;
         border-radius: 8px;
@@ -571,7 +571,7 @@ p {
     .bottom-header .center-area .content-area {
         width: 100%;
         height: 35px;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         align-items: center;
     }
     .bottom-header .center-area .content-area .left-area {
@@ -591,10 +591,10 @@ p {
         font-size: 20px;
     }
     .intro-s1 .s1-main .cont-wrap {
-        width: 25rem;
+        width: 20rem;
     }
     .intro-s1 .s1-main .cont-wrap .ch-wrap .swiper-wrapper .swiper-slide img {
-        width: 8rem;
+        width: 6rem;
     }
     .intro-s1 .down_arrow {
         display: none;
@@ -604,7 +604,7 @@ p {
         align-items: center;
     }
     .intro-s2 .left-area {
-        width: 30rem;
+        width: 25rem;
     }
     .intro-s2 .right-area {
         width: 100%;
@@ -619,6 +619,7 @@ p {
     }
     .intro-s2 .right-area .text-area p {
         margin: 30px;
+        font-size: 0.9rem;
     }
     .intro-s3 {
         width: 100%;
@@ -663,7 +664,7 @@ p {
         order: 1;
     }
     .intro-s3 .business-area ul li .txt-area1 .cov h2 {
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
     .intro-s3 .business-area ul li .txt-area1 p {
         font-size: 0.9rem;
@@ -688,7 +689,7 @@ p {
         order: 3;
     }
     .intro-s3 .business-area ul li .txt-area2 .cov h2 {
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
     .intro-s3 .business-area ul li .txt-area2 p {
         font-size: 0.9rem;
@@ -713,7 +714,7 @@ p {
         order: 5;
     }
     .intro-s3 .business-area ul li .txt-area3 .cov h2 {
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
     .intro-s3 .business-area ul li .txt-area3 p {
         font-size: 0.9rem;
@@ -737,7 +738,7 @@ p {
         order: 7;
     }
     .intro-s3 .business-area ul li .txt-area4 .cov h2 {
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
     .intro-s3 .business-area ul li .txt-area4 p {
         font-size: 0.9rem;
@@ -751,18 +752,18 @@ p {
         width: 100%;
     }
     .intro-s4 .left-text p {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
     .intro-s4 .right-text {
         width: 100%;
     }
     .intro-s4 .right-text p {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
     .intro-s4::before {
         width: 12rem;
         height: 1.8rem;
-        top: -6vw;
+        top: -7.5vw;
     }
     .intro-s4 .io {
         transform: rotate(90deg);
@@ -789,22 +790,23 @@ p {
         /* margin-top: 15%; */
     }
     .intro-s5 .tab-img {
-        top: 70%;
+        top: 80%;
     }
     .intro-s5 .top-cont > .tab-img ul {
         gap: 10px;
     }
     .intro-s5 .top-cont > .tab-img ul li {
-        width: 140px;
-        height: 140px;
+        width: 110px;
+        height: 110px;
+        border-radius: 10px;
     }
     .intro-s5 .top-cont > .tab-img ul li a {
-        width: 140px;
+        width: 120px;
         height: 140px;
-        border-radius: 15px;
     }
     .intro-s5 .top-cont > .tab-img ul li p {
         font-size: 1rem;
+        bottom: 1.9rem;
     }
     .intro-s5 .bottom-txt-area {
         padding-top: 8em;
@@ -829,7 +831,7 @@ p {
     .intro-s6::before {
         width: 12rem;
         height: 1.8rem;
-        top: -6vw;
+        top: -7.5vw;
     }
     .intro-s6 .title {
         width: 100%;
@@ -853,7 +855,7 @@ p {
     .intro-s7::before {
         width: 12rem;
         height: 1.8rem;
-        top: -6vw;
+        top: -7.2vw;
     }
     .intro-s7 .top-txt {
         width: 100%;
@@ -863,7 +865,7 @@ p {
     }
     .intro-s7 .top-txt p {
         width:100%;
-        font-size: 1rem;
+        font-size: 0.87rem;
         text-wrap:wrap;
     }
     .intro-s7 .history-wrap {
@@ -882,5 +884,8 @@ p {
     .intro-s7 ul h1 {
         text-align: left;
         border-bottom: 1px solid #333;
+    }
+    .intro-s7 .sub li a {
+        font-size: 0.56rem;
     }
 }
