@@ -763,7 +763,7 @@ p {
     .intro-s4::before {
         width: 12rem;
         height: 1.8rem;
-        top: -7.4vw;
+        top: -7.3vw;
     }
     .intro-s4 .io {
         transform: rotate(90deg);
@@ -831,7 +831,7 @@ p {
     .intro-s6::before {
         width: 12rem;
         height: 1.8rem;
-        top: -7.4vw;
+        top: -7.3vw;
     }
     .intro-s6 .title {
         width: 100%;
